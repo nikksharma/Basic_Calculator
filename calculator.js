@@ -24,3 +24,5 @@ for (item of buttons) {
 
     })
 }
+
+// basic calculator
