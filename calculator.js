@@ -2,7 +2,7 @@ let screen = document.getElementById('screen');
 let buttons = document.querySelectorAll('button');
 let screenResult = '';
 for (item of buttons) {
-    item.addEventListner('click', (e) => {
+    item.addEventListener('click', (e) => {
         buttonText = e.target.innerText;
         console.log('Button text is ', buttonText);
         if (buttonText == 'x') {
@@ -24,5 +24,3 @@ for (item of buttons) {
 
     })
 }
-
-// basic calculator
